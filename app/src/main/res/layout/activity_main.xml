@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="target.coders.kaptono.ttttteasingtictactoe.MainActivity">
+
+    <Button
+        android:id="@+id/button_12"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="84dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintEnd_toStartOf="@+id/button_13"
+        app:layout_constraintStart_toEndOf="@+id/button_11"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button_22"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="32dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintEnd_toStartOf="@+id/button_23"
+        app:layout_constraintStart_toEndOf="@+id/button_21"
+        app:layout_constraintTop_toBottomOf="@+id/button_12" />
+
+    <Button
+        android:id="@+id/button_32"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="40dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintEnd_toStartOf="@+id/button_33"
+        app:layout_constraintStart_toEndOf="@+id/button_31"
+        app:layout_constraintTop_toBottomOf="@+id/button_22" />
+
+    <Button
+        android:id="@+id/button_13"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="24dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_12" />
+
+    <Button
+        android:id="@+id/button_11"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="24dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_12"
+        app:layout_constraintEnd_toStartOf="@+id/button_12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_23"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_22" />
+
+    <Button
+        android:id="@+id/button_21"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="12dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_22"
+        app:layout_constraintEnd_toStartOf="@+id/button_22"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_33"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="25dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_32" />
+
+    <Button
+        android:id="@+id/button_31"
+        android:layout_width="110dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="24dp"
+        android:text="-"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_32"
+        app:layout_constraintEnd_toStartOf="@+id/button_32"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="26dp"
+        android:text="Dare if you can win me!"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="423dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="refresh"
+        android:text="Refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="AI Game Developed by Tushar Ojha, S/O Mr. Rakesh Ojha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
