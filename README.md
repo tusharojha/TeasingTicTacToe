@@ -5,25 +5,36 @@ In this Game, If you play as Single Player then
 You Can Never win, You Can Only either Loose or Draw the Match!
 This Games contain tested, Algorithm based on AI!
 
-Demo : (Will Be Available Shortly!)
+## Demo 
+Will Be Available Shortly!
 
-So, If You Learned from this Project then it's great
-try visiting my youtube channel : Technology Specialists and Subscribe it for future notifications!
-https://www.youtube.com/channel/UCFEI7zN-vQ9ct8IUAj4l8rw?view_as=subscriber
-
+## How to Use
 Download & Open the Code in your Android Studio as Project,
 Read all comments which provides complete information
 
+### Video Tutorial
 For More Details about project & Working of Application Visit:
-
-
-Learning & Teaching is My AIM,
+```
+Link will be available Soon!
+```
+## For More Projects, Ideas & Tutorials
+If You Learned from this Project then it's great
+try visiting my youtube channel : Technology Specialists and Subscribe it for future notifications!
+```
+https://www.youtube.com/channel/UCFEI7zN-vQ9ct8IUAj4l8rw?view_as=subscriber
+```
+## My AIM
+Learning & Teaching is my main motive and I am Working on it!
 Tell Me if I am Successful or Not!
+## For Bug Report
+```
 Email me if you find out any method to win in this game!
+```
+## Other Highlight
+This Game also Contains Multiplayer Feature, Titled as Play with Friend!
 
-NOTE: This Game also Contains Multiplayer Feature, Titled as Play with Friend!
-
-Regards,
+### Regards,
 My Father: Mr. Rakesh Ojha
 My Mother: Mrs. Saroj Ojha
 My Sisters: Nidhi Ojha & Sheetal Ojha
+| Jai Ganesh |
