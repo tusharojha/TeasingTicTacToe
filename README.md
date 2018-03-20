@@ -20,9 +20,9 @@ Link will be available Soon!
 ## For More Projects, Ideas & Tutorials
 If You Learned from this Project then it's great
 try visiting my youtube channel : Technology Specialists and Subscribe it for future notifications!
-```
+
 https://www.youtube.com/channel/UCFEI7zN-vQ9ct8IUAj4l8rw?view_as=subscriber
-```
+
 ## My AIM
 Learning & Teaching is my main motive and I am Working on it!
 Tell Me if I am Successful or Not!
@@ -30,10 +30,10 @@ Tell Me if I am Successful or Not!
 ```
 Email me if you find out any method to win in this game!
 ```
-## Other Highlight
+## Other Highlights
 This Game also Contains Multiplayer Feature, Titled as Play with Friend!
 
-### Regards,
+### Regards
 My Father: Mr. Rakesh Ojha
 My Mother: Mrs. Saroj Ojha
 My Sisters: Nidhi Ojha & Sheetal Ojha
