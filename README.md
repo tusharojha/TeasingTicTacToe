@@ -6,7 +6,8 @@ You Can Never win, You Can Only either Loose or Draw the Match!
 This Games contain tested, Algorithm based on AI!
 
 ## Demo 
-Demo will be available shortly!
+https://youtu.be/ouUfKWYN5mU
+Subscribe the YouTube Channel as well!
 
 ## How to Use
 Download & Open the Code in your Android Studio as Project,
