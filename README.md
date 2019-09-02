@@ -18,11 +18,6 @@ For More Details about project & Working of Application Visit:
 ```
 Link will be available Soon!
 ```
-## For More Projects, Ideas & Tutorials
-If You Learned from this Project then it's great
-try visiting my youtube channel : Technology Specialists and Subscribe it for future notifications!
-
-https://www.youtube.com/channel/UCFEI7zN-vQ9ct8IUAj4l8rw?view_as=subscriber
 
 ## My AIM
 Learning & Teaching is my main motive and I am Working on it!
