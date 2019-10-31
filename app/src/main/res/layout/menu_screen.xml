@@ -42,10 +42,10 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
-        android:layout_marginEnd="14dp"
         android:layout_marginStart="8dp"
-        android:text="AI Game Developed by Tushar Ojha, S/O Mr. Rakesh Ojha"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="7dp"
+        android:text="AI Game Developed by Tushar Ojha"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
