@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     //Defining our ui buttons
     Button[][] buttons = new Button[3][3];
@@ -408,25 +410,9 @@ return false;
             //fork if possible
             buttons[0][2].setText("O");
         }
-        //take the center..... if not possible then take up the corners
-        else if(buttons[1][1].getText().toString().equals("-")){
-            buttons[1][1].setText("O");
-        }else if(buttons[0][0].getText().toString().equals("-")){
-            buttons[0][0].setText("O");
-        }else if(buttons[0][2].getText().toString().equals("-")){
-            buttons[0][2].setText("O");
-        }else if(buttons[2][0].getText().toString().equals("-")){
-            buttons[2][0].setText("O");
-        }else if(buttons[2][2].getText().toString().equals("-")){
-            buttons[2][2].setText("O");
-        }else if(buttons[0][1].getText().toString().equals("-")){
-            buttons[0][1].setText("O");
-        }else if(buttons[1][0].getText().toString().equals("-")){
-            buttons[1][0].setText("O");
-        }else if(buttons[1][2].getText().toString().equals("-")){
-            buttons[1][2].setText("O");
-        }else if(buttons[2][1].getText().toString().equals("-")){
-            buttons[2][1].setText("O");
+        //generate Random Number and put it!..... if not possible then take up the corners
+        else{
+            n();
         }
 
         //Check for results if device wins
@@ -440,7 +426,16 @@ return false;
         }
         return "none";
     }
+    public void n(){
+        int r = new Random().nextInt(2);
+        int c = new Random().nextInt(2);
+        if(buttons[1][1].getText().toString().equals("-")){
+            buttons[r][c].setText("O");
+        }else{
+            n();
+        }
 
+    }
     @Override
     public void onClick(View view) {
     if(((Button) view).getText().toString().equals("-")){
