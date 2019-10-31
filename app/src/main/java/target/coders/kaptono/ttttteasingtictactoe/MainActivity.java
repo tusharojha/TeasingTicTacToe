@@ -480,8 +480,8 @@ return false;
 
                     final AlertDialog mDialog = new AlertDialog.Builder(this)
                             .setTitle("Congratulations")
-                            .setMessage("You Have Won this Round... Please Report to me!")
-                            .setPositiveButton("Try Again",
+                            .setMessage("You Have Won this Round... Well Played!")
+                            .setPositiveButton("Play Again",
                                     new DialogInterface.OnClickListener() {
 
                                         @Override
