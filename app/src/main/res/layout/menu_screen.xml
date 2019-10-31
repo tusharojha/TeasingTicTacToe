@@ -9,10 +9,10 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginBottom="32dp"
-        android:layout_marginStart="3dp"
-        android:text="Dare to Play with Me"
         android:onClick="playwithme"
+        android:text="Play with Me"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toStartOf="@+id/button2" />
 
