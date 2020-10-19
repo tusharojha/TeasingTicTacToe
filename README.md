@@ -1,5 +1,5 @@
 # TeasingTicTacToe
-Teasing Tic Tac Toe is an Android Application which makes the old tic tac toe games available on Play Store
+Teasing Tic Tac Toe is an Android Application which is very different from the old boring tic tac toe games, it revelutionarizes your gaming experience with tried and tested Artificial Intelligence
 a difference,
 In this Game, If you play as Single Player then
 You Can Never win, You Can Only either Loose or Draw the Match!
