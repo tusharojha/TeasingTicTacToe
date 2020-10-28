@@ -11,7 +11,7 @@ Subscribe the YouTube Channel as well!
 
 ## How to Use
 Download & Open the Code in your Android Studio as Project,
-Read all comments which provides complete information
+Read all the comments which provides you complete information. 
 
 ### Video Tutorial
 For More Details about project & Working of Application Visit:
